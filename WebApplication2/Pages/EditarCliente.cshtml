@@ -1,0 +1,44 @@
+﻿@page
+@model Prova.WebUI.Pages.EditarClienteModel
+@{
+    ViewData["Title"] = "Edição de Cliente";
+
+}
+
+
+<form novalidate="" method="post">
+    <div class="row">
+        <div class="col-md-2">
+            <label>Cod. Cliente</label>
+            <input type="number" class="form-control"  asp-for="cliente.cod_cliente" value="@Model.cliente.cod_cliente" readonly />
+        </div>
+        <div class="col-md-3">
+            <label>Data Cadastro</label>
+            <input type="datetime" class="form-control"  value="@Model.cliente.dt_cadastramento" asp-for="cliente.dt_cadastramento" readonly />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-11">
+            <label>Nome</label>
+            <input type="text" class="form-control" asp-for="cliente.nom_cliente" />
+        </div>
+        <div class="col-md-1">
+            <label>Ativo</label>
+            <input type="checkbox" asp-for="cliente.fl_ativo" class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-12">
+            <label>Descritivo</label>
+            <textarea class="form-control" rows="5" asp-for="cliente.des_observacao"></textarea>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2"><input type="submit" class="btn btn-success" value="Editar"/></div>
+        <div class="col-md-2"><a asp-page="./Index" class="btn btn-secondary">voltar</a></div>
+    </div>
+    
+</form>

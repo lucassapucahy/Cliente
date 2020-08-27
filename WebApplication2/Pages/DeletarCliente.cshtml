@@ -1,0 +1,16 @@
+﻿@page
+@model Prova.WebUI.Pages.DeletarClienteModel
+@{
+    ViewData["Title"] = "Deletar Cliente";
+}
+
+<form novalidate="novalidate" method="post">
+    <input type="hidden" asp-for="@Model.cod_cliente" value="@Model.cod_cliente"/>
+    <label>Tem certeza que deseja deletar o cliente portador do codigo : @Model.cod_cliente</label>
+    <br />
+    <div class="row">
+        <div class="col-md-2"><input type="submit" class="btn btn-danger" value="Deletar" /></div>
+        <div class="col-md-2"><a asp-page="./Index" class="btn btn-secondary">voltar</a></div>
+    </div>
+
+</form>

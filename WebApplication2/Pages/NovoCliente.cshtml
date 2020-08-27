@@ -1,0 +1,25 @@
+﻿@page
+@model Prova.WebUI.Pages.NovoClienteModel
+@{
+    ViewData["Title"] = "Cadastro de Cliente";
+}
+
+<form novalidate="" method="post">
+    <div class="row">
+        <div class="col-md-12">
+            <label>Nome</label>
+            <input type="text" class="form-control" asp-for="cliente.nom_cliente" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <label>Descritivo</label>
+            <textarea class="form-control" rows="5" asp-for="cliente.des_observacao"></textarea>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-2"><input type="submit" class="btn btn-success" value="Cadastrar" /></div>
+        <div class="col-md-2"><a asp-page="./Index" class="btn btn-secondary">voltar</a></div>
+    </div>
+</form>

@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lista Clientes";
+}
+
+<h1>Lista de Clientes</h1>
+
+<br />
+<table class="table table-hover table-bordered">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.clientes[0].cod_cliente)</th>
+            <th>@Html.DisplayNameFor(model => model.clientes[0].nom_cliente)</th>
+            <th>@Html.DisplayNameFor(model => model.clientes[0].fl_ativo)</th>
+            <th>@Html.DisplayNameFor(model => model.clientes[0].des_observacao)</th>
+            <th>@Html.DisplayNameFor(model => model.clientes[0].dt_cadastramento)</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cliente in Model.clientes)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => cliente.cod_cliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => cliente.nom_cliente)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => cliente.fl_ativo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => cliente.des_observacao)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => cliente.dt_cadastramento)
+                </td>
+                <td>
+                    <a asp-page="./EditarCliente" asp-route-id="@cliente.cod_cliente">Alterar</a> |
+                    <a asp-page="./DeletarCliente" asp-route-id="@cliente.cod_cliente">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
