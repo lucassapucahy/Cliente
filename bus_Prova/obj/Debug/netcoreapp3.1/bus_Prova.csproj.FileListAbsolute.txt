@@ -1,0 +1,14 @@
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\bus_Prova.deps.json
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\bus_Prova.dll
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\bus_Prova.pdb
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\db_Prova.dll
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\db_Prova.pdb
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.csprojAssemblyReference.cache
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.csproj.CopyComplete
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.dll
+C:\Users\Pichau\source\repos\WebApplication2\bus_Prova\obj\Debug\netcoreapp3.1\bus_Prova.pdb

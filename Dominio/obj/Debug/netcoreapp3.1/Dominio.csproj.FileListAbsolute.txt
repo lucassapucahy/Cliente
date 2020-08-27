@@ -1,0 +1,9 @@
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.csprojAssemblyReference.cache
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\Pichau\source\repos\WebApplication2\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
